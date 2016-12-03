@@ -47,5 +47,5 @@ add_action('admin_init', 'hasloo_load_admin_scripts');
 function hasloo_load_admin_scripts() {
 	add_thickbox();
 	wp_enqueue_script('theme-preview');
-	wp_enqueue_script('hasloo_admin_js', GENESIS_JS_URL.'/admin.js');	
+	wp_enqueue_script('hasloo_admin_js', HASLOO_JS_URL.'/admin.js');	
 }
