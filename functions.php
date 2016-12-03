@@ -14,4 +14,4 @@
  * @package Hasloo
  *
  **/
-require_once(TEMPLATEPATH.'/lib/init.php');
+require_once(TEMPLATEPATH.'/lib/inithasloo.php');

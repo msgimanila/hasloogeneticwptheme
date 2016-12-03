@@ -1,102 +1,23 @@
 /*
-
-
-
-
-
-
-
 	Theme Name: Genetic-Default
-
-
-
-
-
-
-
 	Theme URL: http://www.hasloo.com/hasloogenetic
-
-
-
-
-
-
-
 	Description: Hasloo Genetic is a 2 or 3-column Widget-ready child theme created for the Hasloo Genetic Framework.
-
-
-
-
-
-
 
 	Author: Hasloo.com
 
-
-
-
-
-
-
 	Author URI: http://www.hasloo.com
-
-
-
-
-
-
 
 	Version: 1.0.1
 
 
-
-
-
-
-
-	 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	The CSS, XHTML and design is released under GPL:
 
-
-
-
-
-
-
-	http://www.opensource.org/licenses/gpl-license.php
-
-
-
-
-
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: Hasloo
 
 
 */
-
-
-
-
-
-
-
-
-
-
 
 body {
 	color: #333333;
@@ -116,12 +37,6 @@ p {
 }
 /***** Hyperlinks ********************/
 
-
-
-
-
-
-
 a, a:visited {
 	color: #036;
 	text-decoration: none;
@@ -139,11 +54,6 @@ a:focus, a:hover, a:active {
 /***** Wrap ********************/
 
 
-
-
-
-
-
 #wrap {
 	background: #e1ffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6+ */
@@ -153,7 +63,7 @@ a:focus, a:hover, a:active {
 	background: -ms-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5', GradientType=0 ); /* IE6-9 */
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	border: 10px ridge #09F;
 	border-radius: 4px;
@@ -165,17 +75,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 
 
 
-
-
-
-
 #header {
-	width: 960px;
+	width: 100%;
 	height: 80px;
 	display: none;
 }
 #title-area {
-	width: 400px;
+	width: 40%;
 	float: left;
 	padding: 20px 0 0 0;
 	overflow: hidden;
@@ -199,14 +105,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 	margin: 0;
 }
 #header .widget-area {
-	width: 550px;
+	width: 50%;
 	float: right;
 }
 /***** Image Header - Partial Width ********************/
-
-
-
-
 
 
 
@@ -216,7 +118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 .header-image #title-area, .header-image #title-area #title, .header-image #title-area #title a {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 60%;
 	height: 80px;
 	padding: 0;
 	text-indent: -9999px;
@@ -230,23 +132,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 
 
 
-
-
-
-
 .header-full-width #title-area, .header-full-width #title-area #title, .header-full-width #title-area #title a {
-	width: 960px;
+	width: 100%;
 }
 /***** Navigation Menus ********************/
 
 
-
-
-
-
-
 #nav, #subnav {
-	width: 960px;
+	width: 100%;
 	height: 100px;
 	background: #996600 url(images/nav.png);
 	color: #FFFFFF;
@@ -283,7 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 }
 #nav li a:hover, #nav li a:active, #nav .current_page_item a, #nav .current-cat a, #nav .current-menu-item, #subnav li a:hover, #subnav li a:active, #subnav .current_page_item a, #subnav .current-cat a, #subnav .current-menu-item, #header ul.nav li a:hover, #header ul.nav li a:active, #header ul.nav .current_page_item a, #header ul.nav .current-cat a, #header ul.nav .current-menu-item a, #header ul.menu li a:hover, #header ul.menu li a:active, #header ul.menu .current_page_item a, #header ul.menu .current-cat a, #header ul.menu .current-menu-item a {
 	color: #006;
-	padding: 7px 7px 5px 7px;
+	 
 	background: -moz-linear-gradient(  top,  #87d5ed 0%,  #8db3d9);
 	background: -webkit-gradient(  linear, left top, left bottom,  from(#87d5ed),  to(#8db3d9));
 	-moz-border-radius: 6px;
@@ -359,11 +252,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 /***** Primary Navigation Extras ********************/
 
 
-
-	
-
-
-
 #nav li.right {
 	float: right;
 	margin: 0;
@@ -400,19 +288,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 
 
 
-
-
-
-
 #inner {
-	width: 960px;
+	width: 100%;
 	margin: 20px 0 20px 0;
 }
 /***** Breadcrumb ********************/
-
-
-
-
 
 
 
@@ -425,11 +305,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 /***** Taxonomy Description ********************/
 
 
-
-
-
-
-
 .taxonomy-description {
 	background: #F7F7F7;
 	margin: 0 0 30px 0;
@@ -440,16 +315,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 
 
 
-
-
-
-
 #content-sidebar-wrap {
-	width: 790px;
+	width: 100%;
 	float: left;
 }
 .sidebar-content #content-sidebar-wrap, .content-sidebar #content-sidebar-wrap {
-	width: 960px;
+	width: 100%;
 }
 .sidebar-sidebar-content #content-sidebar-wrap, .sidebar-content-sidebar #content-sidebar-wrap {
 	float: right;
@@ -458,16 +329,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 
 
 
-
-
-
-
 #content {
-	width: 470px;
+	width: 65%;
 	float: left;
 	border: thin dotted #6699CC;
 	margin: 2px;
-	padding: 5px;
+	padding: 50px;
 	background: -moz-linear-gradient(  top,  #87d5ed 0%,  #8db3d9);
 	background: -webkit-gradient(  linear, left top, left bottom,  from(#87d5ed),  to(#8db3d9));
 	-moz-border-radius: 6px;
@@ -487,10 +354,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 	float: right;
 }
 .sidebar-content #content, .content-sidebar #content {
-	width: 640px;
+	width: 65%;
 }
 .full-width-content #content {
-	width: 960px;
+	width: 100%;
 }
 #content blockquote {
 	background: #F7F7F7;
@@ -500,25 +367,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 }
 #content .post {
 	margin: 0 0 40px 0;
-	padding: 0;
+	padding: 5px 6px 5px 6px;
 }
 #content .page {
 	margin: 0;
-	padding: 0 0 15px 0;
+	padding: 5px 6px 5px 6px;
 }
 #content .post p, #content .page p {
 	margin: 0;
-	padding: 0 0 15px 0;
+	padding: 5px 6px 5px 6px;
 }
 .clear {
 	clear: both;
 }
 /***** Headlines ********************/
-
-
-
-
-
 
 
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #header .widget-area h4 {
@@ -534,7 +396,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 	padding: 20px;
 	border: thick none #BDD2E8;
 	margin: 6px;
-	background-color: #FFFFFF;
+	background-color: #3e259b;
 	background-image: url(images/titlebg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -775,7 +637,7 @@ img.wp-smiley, img.wp-wink {
 
 
 #sidebar {
-	width: 300px;
+	width: 30%;
 	float: right;
 	display: inline;
 	background-image: url(images/sbbg.png);
@@ -783,7 +645,7 @@ img.wp-smiley, img.wp-wink {
 	background-position: center top;
 }
 #sidebar-alt {
-	width: 150px;
+	width: 30%;
 	float: left;
 	display: inline;
 }
@@ -877,10 +739,10 @@ img.wp-smiley, img.wp-wink {
 	border: 1px solid #DDDDDD;
 }
 #sidebar #cat, #sidebar .widget_archive select {
-	width: 278px;
+	width: 30%;
 }
 #sidebar-alt #cat, #sidebar-alt .widget_archive select {
-	width: 128px;
+	width: 20%;
 }
 /***** Sidebar(s) Featured Post/Page ********************/
 
@@ -989,7 +851,7 @@ img.wp-smiley, img.wp-wink {
 	border: 3px solid #E6E6E6;
 }
 #header .s, #nav .s, #sidebar .s, #sidebar-alt .s {
-	width: 200px;
+	width: 50%;
 }
 /***** eNews & Updates Widget ********************/
 
@@ -1106,7 +968,7 @@ img.wp-smiley, img.wp-wink {
 
 
 #footer {
-	width: 960px;
+	width: 100%;
 	color: #FFFFFF;
 	font-size: 12px;
 	margin: 0;

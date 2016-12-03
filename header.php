@@ -10,6 +10,8 @@ hasloo_meta();
 
 wp_head(); // we need this for plugins
 ?>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body <?php body_class(); ?>>
 <?php hasloo_before(); ?>
@@ -19,4 +21,4 @@ wp_head(); // we need this for plugins
 <?php hasloo_header(); ?>
 <?php hasloo_after_header(); ?>
 <div id="inner">
-<input action="action" type="button" value="Back" onclick="history.go(-1);" />
+ 
